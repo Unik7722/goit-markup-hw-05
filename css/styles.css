@@ -743,7 +743,7 @@ border-radius: 50%;
    top: calc(50%);
    left: calc(50%);
    
-   transition: translate(-50%,-50%) scale(1);  
+   transition:translate(-50%,-50%) scale(1);  
 
     width: 408px;
     height: 576px;
