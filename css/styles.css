@@ -689,6 +689,8 @@ border-radius: 50%;
  /* Overlay */
   .team-thumb{
    position: relative;
+
+   overflow: hidden;
   }
   .overlay{
   position: absolute;
@@ -699,7 +701,9 @@ border-radius: 50%;
   height: 100%;
   padding: 40px 32px;
   background-color:#4D5AE5 ;
-  transform:translateY(100%);
+
+  transform:translateY(-100%);
+  transition: transform 250ms ease;
   }
 
 .overlay-text{
@@ -708,6 +712,7 @@ border-radius: 50%;
 
 .team-thumb:hover.overlay{
   transform: translate(0);
+
 }
 
 
