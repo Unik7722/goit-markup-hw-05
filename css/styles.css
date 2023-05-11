@@ -40,7 +40,7 @@ body{
   .bottom{
     padding: 120px 0;
   }
-    /* reset start */
+    /* -- reset start -- */
     h1,h2,h3,h4,h5,h6,p{ margin: 0px;}
     .list{
       list-style: none;
@@ -54,7 +54,7 @@ body{
     button{ cursor: pointer;} 
    
     
-    /* logo */
+    /* -- logo -- */
    .logo{
     display: flex;
     margin-right: 76px;
@@ -81,7 +81,7 @@ body{
    } 
    
    
-    /* Navbar */
+    /* -- Navbar -- */
   
    .menu {
     font-family: "Roboto", sans-serif;
@@ -188,7 +188,7 @@ padding-bottom: 24px;
 .active{
   color: #404bbf;
 }
-  /* address */
+  /* -- address -- */
 
   .contacts {
     font-style: normal;
@@ -213,7 +213,7 @@ padding-bottom: 24px;
 }
 
 
-  /* Section 1 hero */
+  /* -- Section 1 hero -- */
 
   .hero{
     padding: 188px 0;
@@ -276,7 +276,7 @@ padding-bottom: 24px;
   background-color: var(--activ-btn-link);
   }
 
-  /* Section 2 main page */
+  /* -- Section 2 main page -- */
  .hidclass{
   margin-bottom: 8px;
 }
@@ -336,7 +336,7 @@ padding-bottom: 24px;
     color: var(--color-text);
    }  
 
-  /* Section 3 */
+  /* -- Section 3 -- */
   .gallery-class{
   padding-bottom: 120px; 
   }
@@ -356,17 +356,17 @@ padding-bottom: 24px;
   }
   
   
-     /* --content-element (c section 2) -- */
-       .content-element
+     /*.content-element (c section 2)*/
+       
 
-  /* Section 4 */
+  /* -- Section 4 -- */
   .section-color{
     background-color: var(--text-footer); }
    
-  .bottom
   
-  /* --content-element (c section 2) -- */
-  .content-element
+  
+  /*.content-element (c section 2)*/
+  
 
   .content-shadow{
    box-shadow: rgba(46, 47, 66, 0.08);
@@ -425,7 +425,7 @@ padding-bottom: 24px;
    text-align: center;
 
 }
-  /* social icon 4 section*/
+  /*-- social icon 4 section --*/
 .social{
   display: flex;
   justify-content: center;
@@ -471,7 +471,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   gap:24px;
 }
- .customers-item
+ /* .customers-item */
   
   
  
@@ -511,7 +511,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-  /* footer */
+  /*-- footer --*/
   
   .footer-style{
     background-color: var(--logo-dark);
@@ -602,7 +602,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .social-link-ft:focus{
     background-color:var(--sociai-link-ftr) ;
   }
-  /* Portfolio */
+  /*-- Portfolio --*/
 
 .filter-btn{
   display: flex;
@@ -612,7 +612,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 72px;
   }
 
-  /* Section 1 button */
+  /*-- Section 1 button -- */
   .menu-button{
   background-color: var(--text-footer);
   cursor: pointer; 
@@ -694,7 +694,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid #e7e9fc;
     border-top: none;
   }
- /* Overlay */
+ /* -- Overlay -- */
   .team-thumb{
    position: relative;
    overflow: hidden;
